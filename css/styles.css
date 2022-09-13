@@ -1,4 +1,38 @@
 .hero1 {
     font-family: 'Dancing Script', cursive;
-    background-image: url(./img/table.jpeg);
+    background-image: url(../img/table.jpeg);
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.nav-bar{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    background-color: peachpuff;
+    text-align: center;
+    margin: 0px;
+    padding: 30px 25px;
+}
+
+.social-icon{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    color: darkolivegreen;
+}
+
+footer{
+    background-color: peachpuff;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+
+i{
+    font-size: 50px;
 }
