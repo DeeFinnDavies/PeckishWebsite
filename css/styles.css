@@ -1,38 +1,74 @@
-.hero1 {
+h1{
     font-family: 'Dancing Script', cursive;
-    background-image: url(../img/table.jpeg);
-  height: 800px; 
-  background-position: center; 
-  background-repeat: no-repeat;
-  background-size: cover;
-  
+    font-size:10em;
 }
 
+.hero1 {
+    background-image: url(../img/table1.jpg);
+    height: 800px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-left: 170px;
+}
+.buttonS {
+    background-color: #EAB543;
+    border: none;
+    color: #2C3A47;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+.buttonS:hover{
+    color: #CAD3C8;
+}
+.nav-link{
+    color: #2c3a47;
+}
+.nav-link:hover{
+    color: #CAD3C8;   
+}
 .nav-bar{
     font-family: 'Dancing Script', cursive;
-    font-size: 50px;
-    background-color: peachpuff;
-    text-align: center;
+    font-size: 35pt;
+    font: #CAD3C8;
+    background-color: #EAB543;
+    display: flex;
+    justify-content: center;
     margin: 0px;
     padding: 30px 25px;
 }
-
+button.accordion-button:not(.collapsed){
+    background-color: #F8EFBA;
+    color: #82589F;
+}
 .social-icon{
     display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 65px;
     height: 65px;
-    color: darkolivegreen;
+    color: #2C3A47;
 }
-
+.social-icon:hover{
+    color:#CAD3C8;
+}
 footer{
-    background-color: peachpuff;
+    background-color:#EAB543;
     display: flex;
     height: 100px;
     justify-content: center;
+    align-items: center;
 }
-
 i{
     font-size: 50px;
+}
+a {
+    color:inherit;
+    text-decoration: none;
 }
