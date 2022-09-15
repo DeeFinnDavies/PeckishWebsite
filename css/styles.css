@@ -5,7 +5,9 @@ h1{
 h2{
     color:#2C3A47;
 }
-
+body{
+    background-color:#CAD3C8;
+}
 .hero1 {
     background-image: url(../img/table1.jpg);
     height: 800px; 
@@ -54,8 +56,18 @@ h2{
     font: #CAD3C8;
     background-color: #EAB543;
 }
+.intro-text{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #2c3a47;
+    font-size: large;
+}
+.accordion{
+    border-radius: 25px;
+}
 .accordion-header{
-    display:flex;  
+    display:flex; 
 }
 .accordion-item{
     border-radius: 25px;
@@ -76,6 +88,7 @@ button.accordion-button{
     margin-bottom: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: white;
 }
 button.accordion-button:not(.collapsed){
     background-color:#F8EFBA;
