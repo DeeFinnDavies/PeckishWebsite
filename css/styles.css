@@ -62,13 +62,17 @@ body{
     margin-bottom: 50px;
     text-align: center;
     color: #2c3a47;
-    font-size: large;
+    font-size: 1.75em;
+    font-family: 'Poppins', sans-serif;
 }
 .accordion{
     border-radius: 25px;
 }
 .accordion-header{
     display:flex; 
+}
+.accordion-body{
+    font-family: 'Poppins', sans-serif;
 }
 .accordion-item{
     border-radius: 25px;
