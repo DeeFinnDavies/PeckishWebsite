@@ -26,7 +26,7 @@
     <header>
       <nav class="navbar">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="../index.html">
             <i class="fas fa-utensils" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"></i>
             Peckish?
           </a>
@@ -34,9 +34,6 @@
       </nav>
       <div class="nav-bar">
         <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link" href="/index.html">Home</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="./page1.html">Sweet</a>
           </li>
@@ -53,20 +50,41 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              <img src="../img/pancakes.jpeg" height="80">
-              American Pancakes. 
+              <img src="../img/pancakes.jpeg" height="200">
+              <h2>American pancakes</h2>
               <p>Easy, American-style, fluffy pancakes are great for feeding a crowd at breakfast or brunch.</p>
             </button>
+            <div class="heart">
+              <i onclick="toggleLike(this)" class="far fa-heart"></i>
+            </div>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <div class="container text-center">
+              <div class="container text-left">
                 <div class="row">
                   <div class="col">
-                  <strong>This is the first item's accordion body.</strong> 
+                  <strong>Ingredients</strong> 
+                  <ul>200g self-raising flour
+                    <li>1 ½ tsp baking powder</li>
+                    <li>1 tbsp golden caster sugar</li>
+                    <li>3 large eggs</li>
+                    <li>25g melted butter, plus extra for cooking</li>
+                    <li>200ml milk</li>
+                    <li>Vegetable oil, for cooking</li>
+                    <strong>To serve</strong>
+                    <li>Maple syrup</li>
+                    <li>Toppings of your choice, such as cooked bacon, bananas, blueberries or peanut butter and jam</li>
+                    </ul>
                   </div>
                   <div class="col">
-                  It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <strong>Method</strong>
+                    <ol>
+                      <li>Mix 200g self-raising flour, 1 ½ tsp baking powder, 1 tbsp golden caster sugar and a pinch of salt together in a large bowl.</li>
+                      <li>Create a well in the centre with the back of your spoon then add 3 large eggs, 25g melted butter and 200ml milk.</li>
+                      <li>Whisk together either with a balloon whisk or electric hand beaters until smooth then pour into a jug.</li>
+                      <li>Heat a small knob of butter and 1 tsp of oil in a large, non-stick frying pan over a medium heat. When the butter looks frothy, pour in rounds of the batter, approximately 8cm wide. Make sure you don’t put the pancakes too close together as they will spread during cooking. Cook the pancakes on one side for about 1-2 mins or until lots of tiny bubbles start to appear and pop on the surface. Flip the pancakes over and cook for a further minute on the other side. Repeat until all the batter is used up.</li>
+                      <li>Serve your pancakes stacked up on a plate with a drizzle of maple syrup and any of your favourite toppings.</li>
+                    </ol>
                   </div>
                 </div>
               </div>
@@ -76,20 +94,39 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              <img src="../img/istockphoto-171269841-612x612.jpg" height="80">
-              French Toast. 
+              <img src="../img/istockphoto-171269841-612x612.jpg" height="200">
+              <h2>French toast</h2>
               <p>Eggy bread, pain perdu or French toast; this classic breakfast dish has plenty of names and just as many options for toppings. We like it with fresh berries.</p>
             </button>
+            <div class="heart">
+              <i onclick="toggleLike(this)" class="far fa-heart"></i>
+            </div>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <div class="container text-center">
+              <div class="container text-left">
                 <div class="row">
                   <div class="col">
-                   <strong>This is the second item's accordion body.</strong> 
+                   <strong>Ingredients</strong>
+                    <ul>
+                      <li>2 large eggs</li>
+                        <li>80ml whole milk</li>
+                        <li>40ml double cream</li>
+                        <li>1 tsp vanilla extract</li>
+                        <li>½ tsp cinnamon</li>
+                        <li>4 thick slices brioche</li>
+                        <li>2 tbsp vegetable oil</li>
+                        <li>2 tbsp butter</li>
+                        <li>Icing sugar and fresh berries, to serve (optional)</li>
+                    </ul> 
                   </div>
                   <div class="col">
-                    It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <strong>Method</strong>
+                      <ol>
+                        <li>Whisk together the eggs, milk, cream, vanilla and cinnamon. Lay the brioche slices in a single layer in a shallow dish and pour the egg mixture over them. Allow to soak for 2-3 mins, then carefully turn over and soak for 2 mins more.</li>
+                        <li>Heat 1 tbsp of the vegetable oil and butter in a non-stick frying pan over a medium heat until foaming. Carefully lift 2 slices of the soaked brioche out of the dish and add to the frying pan. Fry for 3 mins on each side, until golden and crisp, then place on a wire rack over a baking tray in a warm oven while you repeat with the remaining slices.</li>
+                        <li>Serve dusted in icing sugar and scattered with fresh berries, if you like.</li>
+                      </ol>
                   </div>
                 </div>
               </div>
@@ -99,19 +136,50 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <img src="../img/brownies.jpg" height="80">
-              Chocolate brownies. 
+              <img src="../img/brownies.jpg" height="200">
+              <h2>Chocolate brownies</h2>
               <p>A foolproof brownie recipe for a squidgy chocolate bake.</p>
             </button>
+            <div class="heart">
+              <i onclick="toggleLike(this)" class="far fa-heart"></i>
+            </div>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <div class="container text-center">
+              <div class="container text-left">
                 <div class="row">
                   <div class="col">
-                  <strong>This is the third item's accordion body.</strong> 
+                    <strong>Ingredients</strong>
+                    <ul>
+                      <li>185g unsalted butter
+                      <li>185g best dark chocolate</li>
+                      <li>85g plain flour</li>
+                      <li>40g cocoa powder</li>
+                      <li>50g white chocolate</li>
+                      <li>50g milk chocolate</li>
+                      <li>3 large eggs</li>
+                      <li>275g golden caster sugar</li>
+                    </ul> 
                   </div>
-                  <div class="col"> is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <div class="col"> 
+                    <strong>Method</strong>
+                    <ol>
+                      <li>Cut 185g unsalted butter into small cubes and tip into a medium bowl. Break 185g dark chocolate into small pieces and drop into the bowl.</li>
+                      <li>Fill a small saucepan about a quarter full with hot water, then sit the bowl on top so it rests on the rim of the pan, not touching the water. Put over a low heat until the butter and chocolate have melted, stirring occasionally to mix them.</li>
+                      <li>Remove the bowl from the pan. Alternatively, cover the bowl loosely with cling film and put in the microwave for 2 minutes on High. Leave the melted mixture to cool to room temperature.</li>
+                      <li>While you wait for the chocolate to cool, position a shelf in the middle of your oven and turn the oven on to 180C/160C fan/gas 4.</li>
+                      <li>Using a shallow 20cm square tin, cut out a square of non-stick baking parchment to line the base. Tip 85g plain flour and 40g cocoa powder into a sieve held over a medium bowl. Tap and shake the sieve so they run through together and you get rid of any lumps.</li>  
+                      <li>Chop 50g white chocolate and 50g milk chocolate into chunks on a board.
+                      <li>Break 3 large eggs into a large bowl and tip in 275g golden caster sugar. With an electric mixer on maximum speed, whisk the eggs and sugar. They will look thick and creamy, like a milk shake. This can take 3-8 minutes, depending on how powerful your mixer is. You’ll know it’s ready when the mixture becomes really pale and about double its original volume. Another check is to turn off the mixer, lift out the beaters and wiggle them from side to side. If the mixture that runs off the beaters leaves a trail on the surface of the mixture in the bowl for a second or two, you’re there.</li>
+                      <li>Pour the cooled chocolate mixture over the eggy mousse, then gently fold together with a rubber spatula. Plunge the spatula in at one side, take it underneath and bring it up the opposite side and in again at the middle. Continue going under and over in a figure of eight, moving the bowl round after each folding so you can get at it from all sides, until the two mixtures are one and the colour is a mottled dark brown. The idea is to marry them without knocking out the air, so be as gentle and slow as you like.</li>
+                      <li>Hold the sieve over the bowl of eggy chocolate mixture and resift the cocoa and flour mixture, shaking the sieve from side to side, to cover the top evenly.</li>
+                      <li>Gently fold in this powder using the same figure of eight action as before. The mixture will look dry and dusty at first, and a bit unpromising, but if you keep going very gently and patiently, it will end up looking gungy and fudgy. Stop just before you feel you should, as you don’t want to overdo this mixing.</li>
+                      <li>Finally, stir in the white and milk chocolate chunks until they’re dotted throughout.</li>
+                      <li>Pour the mixture into the prepared tin, scraping every bit out of the bowl with the spatula. Gently ease the mixture into the corners of the tin and paddle the spatula from side to side across the top to level it.</li>
+                      <li>Put in the oven and set your timer for 25 mins. When the buzzer goes, open the oven, pull the shelf out a bit and gently shake the tin. If the brownie wobbles in the middle, it’s not quite done, so slide it back in and bake for another 5 minutes until the top has a shiny, papery crust and the sides are just beginning to come away from the tin. Take out of the oven.</li>
+                      <li>Leave the whole thing in the tin until completely cold, then, if you’re using the brownie tin, lift up the protruding rim slightly and slide the uncut brownie out on its base. If you’re using a normal tin, lift out the brownie with the foil. Cut into quarters, then cut each quarter into four squares and finally into triangles.</li>
+                      <li>They’ll keep in an airtight container for a good two weeks and in the freezer for up to a month.</li>
+                    </ol>
                   </div>
                 </div>
               </div>
@@ -119,10 +187,7 @@
           </div>
         </div>
       </div>
-    </div>
-
-  
-
+    </div>  
 
 <footer>
     <a href="https://twitter.com" target="_blank">
@@ -136,7 +201,8 @@
       </a>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <script src="../js/main.js"></script> 
+  
 </body>
 </html>

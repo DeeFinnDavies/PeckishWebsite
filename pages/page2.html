@@ -23,28 +23,25 @@
     <title>Peckish?</title>
   </head>
 
-    <header>
-      <nav class="navbar">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <i class="fas fa-utensils" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"></i>
-            Peckish?
-          </a>
-        </div>
-    </nav>
-      <div class="nav-bar">
-      <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link" href="/index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./page1.html">Sweet</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./page2.html">Savoury</a>
-          </li>
-        </ul>
+  <header>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <i class="fas fa-utensils" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"></i>
+          Peckish?
+        </a>
       </div>
+    </nav>
+    <div class="nav-bar">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="./page1.html">Sweet</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./page2.html">Savoury</a>
+        </li>
+      </ul>
+    </div>
   </header>
 
   <body>
@@ -53,21 +50,35 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              <img src="../img/popcorn.jpeg" height="80">
-              Chilli popcorn. 
+              <img src="../img/chillipopcorn.jpeg" height="125">
+              <h2>Chilli popcorn</h2>
               <p>Add mixed spice, chilli and black pepper to your standard microwave popcorn for a fuss-free, filling snack. It's a great, grown-up option for movie nights
               </p>
               </button>
+              <div class="heart">
+                <i onclick="toggleLike(this)" class="far fa-heart"></i>
+              </div>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <div class="container text-center">
+              <div class="container text-left">
                 <div class="row">
                   <div class="col">
-                  <strong>This is the first item's accordion body.</strong> 
+                  <strong>Ingredients</strong> 
+                    <ul>  
+                      <li>1 pouch natural microwave popcorn or 100g popcorn kernels</li>
+                      <li>1 tsp chilli flakes</li>
+                      <li>1 tsp cracked black pepper</li>
+                      <li>2 tsp mixed spice</li>
+                    </ul>
                   </div>
                   <div class="col">
-                  It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <strong>Method</strong>
+                    <ol>
+                    <li>Heat oven to 200C/180C fan/gas 6. Pop the natural microwave popcorn pouch (or popcorn kernels) following pack instructions.</li>
+                    <li>Meanwhile, mix together chilli flakes, cracked black pepper and mixed spice. Toss the popcorn with the spice mix, then tip onto a large baking tray and place in the oven for 5 mins until the corn is crisp and the spices are fragrant.</li>
+                    <li>Sprinkle with a pinch of salt and eat warm or once cooled. Will keep in an airtight container for up to a week.</li>
+                    </ol>
                   </div>
                 </div>
               </div>
@@ -77,20 +88,36 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              <img src="../img/avto.jpeg" height="80">
-              Smashed avocado on toast.
+              <img src="../img/avto.jpeg" height="125">
+              <h2>Smashed avocado on toast</h2>
               <p>Make this simple speedy breakfast with just a handful of ingredients. Our avocado toast uses crusty sourdough bread and a pinch of chilli for a kick</p>
             </button>
+            <div class="heart">
+              <i onclick="toggleLike(this)" class="far fa-heart"></i>
+            </div>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <div class="container text-center">
+              <div class="container text-left">
                 <div class="row">
                   <div class="col">
-                  <strong>This is the second item's accordion body.</strong> 
+                    <strong>Ingredients</strong> 
+                    <ul>
+                      <li>1 ripe avocado</li>
+                      <li>½ lemon</li>
+                      <li>Big pinch chilli flakes</li>
+                      <li>2 slices sourdough bread</li>
+                      <li>Good drizzle extra virgin olive oil</li>
+                    </ul>
                   </div>
                   <div class="col">
-                    It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <strong>Method</strong>
+                    <ol>
+                      <li>Cut the avocado in half and carefully remove its stone, then scoop out the flesh into a bowl.</li>
+                      <li>Squeeze in the lemon juice then mash with a fork to your desired texture.</li>
+                      <li>Season to taste with sea salt, black pepper and chilli flakes.</li>
+                      <li>Toast your bread, drizzle over the oil then pile the avocado on top.</li>
+                    </ol>
                   </div>
                 </div>
               </div>
@@ -100,20 +127,36 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <img src="../img/tuna.jpg" height="80">
-              Cheesy tuna melt
+              <img src="../img/tuna.jpg" height="125">
+              <h2>Cheesy tuna melt</h2>
               <p>A tasty change from cheese on toast.</p>
             </button>
+            <div class="heart">
+              <i onclick="toggleLike(this)" class="far fa-heart"></i>
+            </div>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <div class="container text-center">
+              <div class="container text-left">
                 <div class="row">
                   <div class="col">
-                  <strong>This is the third item's accordion body.</strong> 
+                  <strong>Ingredients</strong>
+                    <ul>       
+                      <li>Can tuna , whatever type you've got in the cupboard</li>
+                      <li>½ a bunch of spring onions , finely chopped</li>
+                      <li>4 tbsp mayonnaise</li>
+                      <li>3 thick slices of granary or wholemeal bread</li>
+                      <li>50g cheddar , coarsely grated</li>
+                      <li>Generous pinch of paprika</li>
+                    </ul>
                   </div>
                   <div class="col">
-                    It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <strong>Method</strong>
+                    <ol>
+                      <li>Preheat the grill on its highest setting. Drain the tuna, flake it into a bowl and mix with the spring onions and mayonnaise. Season with salt and plenty of freshly ground black pepper.</li>
+                      <li>Toast the bread under the grill until it’s nicely browned on both sides, then spread the tuna mixture on top, right up to the edges of the toast. Scatter over the cheese and put back under the grill until the cheese is bubbling.</li>
+                      <li>Slice in half, sprinkle with paprika and tuck in.</li>
+                    </ol>
                  </div>
                 </div>
               </div>
@@ -135,7 +178,8 @@
       </a>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <script src="../js/main.js"></script>
+
 </body>
 </html>
