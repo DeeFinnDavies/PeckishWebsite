@@ -22,6 +22,7 @@ body{
     border: none;
     color: #2C3A47;
     padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -77,6 +78,7 @@ button.accordion-button{
     border-radius: 25px;
     border:#CAD3C8 2px;
     display: inline-block;
+    font-family: 'Poppins', sans-serif;
 }
 .accordion-button.collapsed{
     border-radius: 25px;
@@ -132,4 +134,5 @@ a {
 }
 img{
     border-radius: 25px;
+    margin-bottom: 25px;
 }
